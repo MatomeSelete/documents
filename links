@@ -1,0 +1,66 @@
+JavaScript - https://youtu.be/PkZNo7MFNFg
+HTML and CSS - https://youtu.be/a_iQb1lnAEQ
+
+
+Here's the playlist:
+HTML & CSS - https://www.youtube.com/watch?v=hu-q2zYwEYs&list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G
+JavaScript - https://www.youtube.com/watch?v=iWOYAxlnaww&list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc
+Async JavaScript - https://www.youtube.com/watch?v=ZcQyJ-gxke0&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu
+
+Here's the repo for the JavaScript concepts we covered today: https://github.com/mpendulo-dev/Javascript-basics.git
+
+https://hub.docker.com/_/postgres
+
+https://dbeaver.io/download/
+
+
+https://www.youtube.com/watch?v=0eWrpsCLMJQ&list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ
+
+
+https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/
+
+
+Morning guys please install the following so long I will be with you guys in a bit.
+
+https://code.visualstudio.com/docs/java/java-spring-boot#:~:text=To%20install%2C%20launch%20VS%20Code,and%20then%20follow%20the%20wizard. 
+
+java and spring
+https://lnkd.in/dmFHPtyK
+https://lnkd.in/dXKvtXq9
+https://lnkd.in/dnF86dgY
+
+
+
+https://gradle.org/install/
+
+
+
+The API Interface
+
+
+
+package com.example.androidauthenticationapp;
+
+import okhttp3.ResponseBody;
+import retrofit2.Call;
+import retrofit2.http.Body;
+import retrofit2.http.POST;
+
+public interface API {
+
+    @POST("register")
+    Call<ResponseBody> createUser (
+            @Body User user
+    );
+
+    @POST("login")
+    Call<ResponseBody> checkUser (
+            @Body User user
+    );
+
+}
+Java  Model User
+
+
+
+
